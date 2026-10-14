@@ -137,7 +137,7 @@ export const projects = [
     title: "Vehiql – AI-Enabled Car Marketplace",
     description:
       "Developed a responsive car marketplace with vehicle listing and search features, Clerk authentication, and database integration using Supabase and Prisma ORM.",
-    image: "/images/vehiql.jpg",
+    image: "/images/Vehiql.jpg",
     techStack: [
       "Next.js",
       "JavaScript",
