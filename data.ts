@@ -40,7 +40,7 @@ export const contactInfo = [
     icon: Mail,
     label: "Email",
     value: "architraul2004@gmail.com",
-    href: "https://mail.google.com/mail/u/0/#inbox",
+    href: "https://mail.google.com/mail/?view=cm&fs=1&to=architraul2004%40gmail.com&su=Job%20Opportunity",
   },
   {
     icon: Phone,
@@ -127,7 +127,7 @@ export const footerSocialLinks = [
   },
   {
     icon: Mail,
-    href: "https://mail.google.com/mail/u/1/#inbox",
+    href: "https://mail.google.com/mail/?view=cm&fs=1&to=architraul2004%40gmail.com&su=Job%20Opportunity",
     label: "Email",
   },
 ];
