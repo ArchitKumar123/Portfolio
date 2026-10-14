@@ -1,5 +1,4 @@
 import { ExternalLink } from "lucide-react";
-import Image from "next/image";
 import React from "react";
 import { FaGithub } from "react-icons/fa6";
 
@@ -21,18 +20,16 @@ const ProjectCard = ({
   githubUrl,
 }: Props) => {
   return (
-    <div
-      className="group relative bg-white dark:bg-gray-800 shadow-md rounded-2xl overflow-hidden"
-    >
+    <div className="group relative bg-white dark:bg-gray-800 shadow-md rounded-2xl overflow-hidden">
       {/* Image Container */}
       <div className="relative h-48 overflow-hidden">
-        <Image
+        <img
           src={image}
           alt={title}
-          width={400}
-          height={400}
-          unoptimized
           className="w-full h-full object-cover"
+          onError={(e) => {
+            console.error("Failed image URL:", e.currentTarget.src);
+          }}
         />
       </div>
 
