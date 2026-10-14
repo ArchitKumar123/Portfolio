@@ -31,7 +31,7 @@ const ProjectCard = ({
           alt={title}
           width={400}
           height={400}
-          priority
+          unoptimized
           className="w-full h-full object-cover"
         />
       </div>
