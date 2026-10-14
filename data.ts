@@ -164,7 +164,7 @@ export const projects = [
       "JWT",
       "Cloudinary",
     ],
-    demoUrl: "https://vehiql-ai-car-marketplace.vercel.app/",
+    demoUrl: "",
     githubUrl: "https://github.com/ArchitKumar123/Blog-App",
   },
   {
@@ -173,7 +173,7 @@ export const projects = [
       "Built frontend and backend components for a food ordering platform using the MERN stack, implementing REST API endpoints and database operations for core ordering functionality.",
     image: "/images/FoodShop.jpg",
     techStack: ["React.js", "JavaScrippt", "Node.js", "Express.js", "MongoDB"],
-    demoUrl: "https://vehiql-ai-car-marketplace.vercel.app/",
+    demoUrl: "",
     githubUrl: "https://github.com/ArchitKumar123/FoodShop",
   },
 ];
