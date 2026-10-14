@@ -22,6 +22,7 @@ const About = () => {
               alt="Archit Kumar Raul"
               width={700}
               height={700}
+              priority
               className="w-full h-full object-center rounded-xl"
             />
           </div>
